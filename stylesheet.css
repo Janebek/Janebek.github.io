@@ -4,6 +4,7 @@
   --muted: #5f6875;
   --line: #e3e7ed;
   --soft: #f6f8fa;
+  --highlight: #ffffd0;
   --link: #1769aa;
   --link-hover: #984600;
   --focus: #0b63ce;
@@ -140,10 +141,20 @@ h1 {
 }
 
 .research h2 {
-  margin-bottom: 28px;
+  margin-bottom: 10px;
   font-size: 1.45rem;
   font-weight: 500;
   line-height: 1.25;
+}
+
+.representative-note {
+  margin-bottom: 28px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.highlight {
+  background-color: var(--highlight);
 }
 
 .research-list {
@@ -156,6 +167,12 @@ h1 {
   grid-template-columns: 240px minmax(0, 1fr);
   gap: 26px;
   align-items: start;
+}
+
+.representative-paper {
+  border-radius: 2px;
+  background: var(--highlight);
+  box-shadow: 0 0 0 12px var(--highlight);
 }
 
 .research-media {
@@ -247,6 +264,10 @@ footer p {
   }
 
   .research h2 {
+    margin-bottom: 8px;
+  }
+
+  .representative-note {
     margin-bottom: 22px;
   }
 

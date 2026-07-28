@@ -31,4 +31,4 @@ Every push to `main` deploys the repository root through GitHub Actions. The rep
 
 ## Credits
 
-The layout is inspired by [Jon Barron's academic homepage](https://jonbarron.info/) and [Tianming Wei's homepage](https://www.stillwtm.site/). Research previews are derived from the corresponding authors' project media and link back to the [AdaDexTrack](https://janebek.github.io/AdaDexTrack/) and [DexTrack](https://meowuu7.github.io/DexTrack/) project pages.
+The layout is based on [Jon Barron's academic homepage](https://jonbarron.info/). Research previews are derived from the corresponding authors' project media and link back to the [AdaDexTrack](https://janebek.github.io/AdaDexTrack/) and [DexTrack](https://meowuu7.github.io/DexTrack/) project pages.
