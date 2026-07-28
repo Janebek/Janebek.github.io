@@ -94,7 +94,7 @@ p {
 }
 
 h1 {
-  margin-bottom: 6px;
+  margin-bottom: 20px;
   font-size: clamp(2rem, 5vw, 2.35rem);
   font-weight: 600;
   line-height: 1.18;
@@ -102,14 +102,12 @@ h1 {
   text-align: center;
 }
 
-.role {
-  margin-bottom: 20px;
-  color: var(--muted);
-  text-align: center;
+.profile-copy > p {
+  margin-bottom: 12px;
 }
 
-.profile-copy > p:not(.role) {
-  margin-bottom: 18px;
+.profile-copy > p:last-of-type {
+  margin-bottom: 0;
 }
 
 .profile-links,
