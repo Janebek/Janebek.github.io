@@ -23,7 +23,7 @@ Then open `http://localhost:8000/`.
 
 ## Updating the profile image
 
-Replace `assets/profile.jpg` with a square portrait. Keep the filename unchanged so that the page and social metadata continue to work without edits.
+Replace `assets/profile.jpg` with a portrait. The page crops it to a square; adjust `object-position` in `stylesheet.css` when a different focal point is needed. Update the image version in `index.html` to prevent stale browser caches.
 
 ## Deployment
 

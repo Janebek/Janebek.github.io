@@ -135,6 +135,7 @@ h1 {
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: left center;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--soft);
