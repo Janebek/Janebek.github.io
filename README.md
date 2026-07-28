@@ -6,7 +6,8 @@ Static academic homepage for [janebek.github.io](https://janebek.github.io/).
 
 - `index.html` — profile and selected research
 - `stylesheet.css` — responsive, accessible presentation
-- `assets/` — local profile image, research thumbnails, and favicon
+- `motion.js` — viewport-aware, reduced-motion-safe research previews
+- `assets/` — local profile image, research preview videos, poster images, and favicon
 - `robots.txt` and `sitemap.xml` — search-engine discovery
 - `.github/workflows/deploy.yml` — GitHub Pages deployment
 
@@ -30,4 +31,4 @@ Every push to `main` deploys the repository root through GitHub Actions. The rep
 
 ## Credits
 
-The layout is inspired by [Jon Barron's academic homepage](https://jonbarron.info/) and [Tianming Wei's homepage](https://www.stillwtm.site/). Research thumbnails are derived from the corresponding authors' project media and link back to the [AdaDexTrack](https://janebek.github.io/AdaDexTrack/) and [DexTrack](https://meowuu7.github.io/DexTrack/) project pages.
+The layout is inspired by [Jon Barron's academic homepage](https://jonbarron.info/) and [Tianming Wei's homepage](https://www.stillwtm.site/). Research previews are derived from the corresponding authors' project media and link back to the [AdaDexTrack](https://janebek.github.io/AdaDexTrack/) and [DexTrack](https://meowuu7.github.io/DexTrack/) project pages.
