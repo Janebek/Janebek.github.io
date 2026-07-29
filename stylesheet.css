@@ -164,7 +164,7 @@ h1 {
 
 .research-item {
   display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 300px minmax(0, 1fr);
   gap: 26px;
   align-items: start;
 }
@@ -219,16 +219,6 @@ h1 {
 
 .resource-links {
   margin-top: 8px;
-}
-
-.summary {
-  margin-top: 11px;
-  color: var(--muted);
-}
-
-.contribution-note {
-  color: var(--muted);
-  font-size: 0.82rem !important;
 }
 
 sup {
