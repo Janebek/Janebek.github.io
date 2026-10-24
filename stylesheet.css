@@ -126,7 +126,7 @@ h1 {
 
 .profile-image-wrap {
   width: min(100%, 250px);
-  margin-inline: auto;
+  margin: 0 auto;
 }
 
 .profile-image {
@@ -138,6 +138,14 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--soft);
+}
+
+.profile-caption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .research h2 {
